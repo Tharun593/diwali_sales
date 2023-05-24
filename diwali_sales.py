@@ -80,6 +80,6 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 # a=[x for x in range(5)]
 # print(a)
 
-a=10
-print(a)
-print()
+# a=10
+# print(a)
+# print()

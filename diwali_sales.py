@@ -74,3 +74,8 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 
 # plt.show()
 
+# x=lambda a: a*a
+# print(x(5))
+
+# a=[x for x in range(5)]
+# print(a)

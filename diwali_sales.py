@@ -83,3 +83,6 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 # a=10
 # print(a)
 # print()
+
+x=lambda a: a**a
+print(x(2))

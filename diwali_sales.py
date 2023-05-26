@@ -108,3 +108,28 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 # s = Tharun('Tharun',29,'Male','Hyderabad',9490541278)
 # s.display()
 # print()
+
+class Worker:
+    location_name = 'Hyderabad'
+    
+    def __init__(self,name,id):
+        self.name = name
+        self.id = id
+    def show(self):
+        print('Worker name: ', self.name,',',self.id)
+        print('Worker location: ', self.location_name)
+    
+    @classmethod
+    def change_location(cls,location):
+        print('Previous location name: ', cls.location_name)
+        cls.location_name=location
+        print('After changing location: ', cls.location_name)
+    
+    @staticmethod
+    def tool_box():
+        return['tool1','tool2','tool3']
+
+c = Worker('Tharun',1234)
+c.show()
+c.change_location('Vijayawada')
+print(c.tool_box())

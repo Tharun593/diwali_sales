@@ -91,20 +91,22 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 #     return a+b
 # print(sum(2,3))
 
-class Tharun:
-    def __init__(self,name,age,gender,address,phone):
-        self.name = name
-        self.age = age
-        self.gender = gender
-        self.address = address
-        self.phone = phone
-    def display(self):
-        print('The name:',self.name)
-        print('The age:',self.age)
-        print('The gender:',self.gender)
-        print('The address:',self.address)
-        print('The phone:',self.phone)
-print()
-s = Tharun('Tharun',29,'Male','Hyderabad',9490541278)
-s.display()
-print()
+# class Tharun:
+#     def __init__(self,name,age,gender,address,phone):
+#         self.name = name
+#         self.age = age
+#         self.gender = gender
+#         self.address = address
+#         self.phone = phone
+#     def display(self):
+#         print('The name:',self.name)
+#         print('The age:',self.age)
+#         print('The gender:',self.gender)
+#         print('The address:',self.address)
+#         print('The phone:',self.phone)
+# print()
+# s = Tharun('Tharun',29,'Male','Hyderabad',9490541278)
+# s.display()
+# print()
+
+print('Tharun')

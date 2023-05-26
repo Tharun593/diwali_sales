@@ -108,5 +108,3 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 # s = Tharun('Tharun',29,'Male','Hyderabad',9490541278)
 # s.display()
 # print()
-
-print('Tharun')

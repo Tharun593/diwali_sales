@@ -84,5 +84,9 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 # print(a)
 # print()
 
-x=lambda a: a**a
-print(x(2))
+# x=lambda a: a**a
+# print(x(2))
+
+# def sum(a,b):
+#     return a+b
+# print(sum(2,3))

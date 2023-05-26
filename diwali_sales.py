@@ -138,3 +138,5 @@ print()
 print()
 
 print('Welcome')
+print('Hi')
+print('when')

@@ -109,34 +109,54 @@ diwali_data = pd.read_csv(r'Diwali Sales Data.csv',encoding='unicode_escape')
 # s.display()
 # print()
 
-class Worker:
-    location_name = 'Hyderabad'
+# class Worker:
+#     location_name = 'Hyderabad'
     
-    def __init__(self,name,id):
+#     def __init__(self,name,id):
+#         self.name = name
+#         self.id = id
+#     def show(self):
+#         print('Worker name: ', self.name,',',self.id)
+#         print('Worker location: ', self.location_name)
+    
+#     @classmethod
+#     def change_location(cls,location):
+#         print('Previous location name: ', cls.location_name)
+#         cls.location_name=location
+#         print('After changing location: ', cls.location_name)
+    
+#     @staticmethod
+#     def tool_box():
+#         return['tool1','tool2','tool3']
+
+# c = Worker('Tharun',1234)
+# c.show()
+# c.change_location('Vijayawada')
+# print(c.tool_box())
+# print()
+# print()
+# print()
+
+# print('Welcome')
+# print('Hi')
+# print('when')
+# print('how')
+
+class Student:
+    def __init__(self,name,age):
         self.name = name
-        self.id = id
+        self.age  = age
+    
     def show(self):
-        print('Worker name: ', self.name,',',self.id)
-        print('Worker location: ', self.location_name)
+        print('Name:',self.name)
+        print('Age:',self.age)
     
-    @classmethod
-    def change_location(cls,location):
-        print('Previous location name: ', cls.location_name)
-        cls.location_name=location
-        print('After changing location: ', cls.location_name)
-    
-    @staticmethod
-    def tool_box():
-        return['tool1','tool2','tool3']
+    def range1(self,x):
+        nums=[]
+        for i in range(1,x):
+            nums.append(i)
+        return nums
 
-c = Worker('Tharun',1234)
-c.show()
-c.change_location('Vijayawada')
-print(c.tool_box())
-print()
-print()
-print()
-
-print('Welcome')
-print('Hi')
-print('when')
+s=Student('Tharun',29)
+s.show()
+print(s.range1(10))
